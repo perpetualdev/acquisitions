@@ -1,0 +1,45 @@
+{"level":"info","message":"Hello from Acquisitions","service":"user-service","timestamp":"2026-04-14T14:58:37.992Z"}
+{"level":"info","message":"::1 - - [14/Apr/2026:14:58:38 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0\"","service":"user-service","timestamp":"2026-04-14T14:58:38.147Z"}
+{"level":"info","message":"Hello from Acquisitions","service":"user-service","timestamp":"2026-04-15T09:52:50.222Z"}
+{"level":"info","message":"::1 - - [15/Apr/2026:09:52:50 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-15T09:52:50.272Z"}
+{"level":"info","message":"::1 - - [15/Apr/2026:09:53:21 +0000] \"GET /api HTTP/1.1\" 200 45 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-15T09:53:21.682Z"}
+{"level":"info","message":"::1 - - [15/Apr/2026:09:53:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-15T09:53:34.018Z"}
+{"level":"info","message":"::1 - - [15/Apr/2026:09:53:49 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-15T09:53:49.464Z"}
+{"level":"info","message":"::1 - - [15/Apr/2026:09:55:41 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-15T09:55:41.326Z"}
+{"level":"info","message":"::1 - - [16/Apr/2026:16:26:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-16T16:26:04.858Z"}
+{"level":"info","message":"::1 - - [16/Apr/2026:16:27:25 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 94 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-16T16:27:25.795Z"}
+{"level":"info","message":"::1 - - [16/Apr/2026:16:28:29 +0000] \"POST /api/auth/sign-up?email=contact%40perpydel.com HTTP/1.1\" 400 94 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-16T16:28:29.627Z"}
+{"level":"info","message":"::1 - - [16/Apr/2026:16:28:46 +0000] \"POST /api/auth/sign-up?email=contact%40perpydel.com&name=Adrian HTTP/1.1\" 400 94 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-16T16:28:46.815Z"}
+{"level":"info","message":"User registered sucessfully: contact@jsmastery.com","service":"user-service","timestamp":"2026-04-16T16:29:46.198Z"}
+{"level":"info","message":"::1 - - [16/Apr/2026:16:29:46 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 107 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-16T16:29:46.200Z"}
+{"level":"info","message":"User created successfully: contact@jsmastery.com","service":"user-service","timestamp":"2026-04-16T16:54:27.630Z"}
+{"level":"info","message":"User registered sucessfully: contact@jsmastery.com","service":"user-service","timestamp":"2026-04-16T16:54:27.654Z"}
+{"level":"info","message":"::1 - - [16/Apr/2026:16:54:27 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 108 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-16T16:54:27.662Z"}
+{"level":"info","message":"User created successfully: adrian@jsmastery.com","service":"user-service","timestamp":"2026-04-16T16:55:02.078Z"}
+{"level":"info","message":"User registered sucessfully: adrian@jsmastery.com","service":"user-service","timestamp":"2026-04-16T16:55:02.083Z"}
+{"level":"info","message":"::1 - - [16/Apr/2026:16:55:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-16T16:55:02.087Z"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:37:14 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T00:37:14.182Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"user-service","timestamp":"2026-04-21T00:42:16.702Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:42:16 +0000] \"GET /health HTTP/1.1\" 403 69 \"-\" \"PostmanRuntime/7.53.0\"","service":"user-service","timestamp":"2026-04-21T00:42:16.735Z"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:42:29 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T00:42:29.562Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"user-service","timestamp":"2026-04-21T00:42:45.019Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:42:45 +0000] \"GET /health HTTP/1.1\" 403 69 \"-\" \"PostmanRuntime/7.53.0\"","service":"user-service","timestamp":"2026-04-21T00:42:45.024Z"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:44:01 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T00:44:01.136Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"user-service","timestamp":"2026-04-21T00:44:19.549Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:44:19 +0000] \"GET /health HTTP/1.1\" 403 69 \"-\" \"PostmanRuntime/7.53.0\"","service":"user-service","timestamp":"2026-04-21T00:44:19.551Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"user-service","timestamp":"2026-04-21T00:46:18.502Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:46:18 +0000] \"GET /health HTTP/1.1\" 403 69 \"-\" \"PostmanRuntime/7.53.0\"","service":"user-service","timestamp":"2026-04-21T00:46:18.504Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"user-service","timestamp":"2026-04-21T00:46:29.655Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [21/Apr/2026:00:46:29 +0000] \"GET /health HTTP/1.1\" 403 69 \"-\" \"PostmanRuntime/7.53.0\"","service":"user-service","timestamp":"2026-04-21T00:46:29.657Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Apr/2026:08:53:52 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T08:53:52.115Z"}
+{"level":"info","message":"::1 - - [21/Apr/2026:08:54:54 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0\"","service":"user-service","timestamp":"2026-04-21T08:54:54.801Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [21/Apr/2026:16:20:41 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T16:20:41.617Z"}
+{"level":"info","message":"::1 - - [21/Apr/2026:16:20:56 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T16:20:56.877Z"}
+{"level":"info","message":"::1 - - [21/Apr/2026:16:21:31 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T16:21:31.200Z"}
+{"level":"info","message":"::1 - - [21/Apr/2026:16:21:34 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-21T16:21:34.797Z"}
+{"level":"info","message":"::1 - - [22/Apr/2026:11:20:17 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-22T11:20:17.348Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"user-service","timestamp":"2026-04-22T13:20:00.045Z","userAgent":"PostmanRuntime/7.53.0"}
+{"level":"info","message":"::1 - - [22/Apr/2026:13:20:00 +0000] \"GET /health HTTP/1.1\" 403 69 \"-\" \"PostmanRuntime/7.53.0\"","service":"user-service","timestamp":"2026-04-22T13:20:00.125Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"user-service","timestamp":"2026-04-22T13:20:21.447Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [22/Apr/2026:13:20:21 +0000] \"GET /health HTTP/1.1\" 403 69 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-22T13:20:21.464Z"}
+{"level":"info","message":"::1 - - [22/Apr/2026:13:26:11 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-04-22T13:26:11.463Z"}
